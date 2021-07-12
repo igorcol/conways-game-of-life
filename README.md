@@ -6,6 +6,7 @@
 3. Any dead cell with exactly three live neighbors become a live cell
 
 
+
 ***WARNING***
 
 Do **NOT** press the tittle exactly 5 times!
