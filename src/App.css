@@ -1,29 +1,37 @@
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #fff;
   color: #111;
   margin: 0;
+  transition: all ease 200ms;
 }
 
 .title {
   text-align: center;
+  cursor: pointer;
   color: #1860B6;
-  font-size: 20px;
+  font-size: 27px;
+  text-shadow: -1px 1px black;
+  transition: all ease 200ms;
+}
+.title h1:active {
+  transform: scale(0.95);
 }
 
 .btns {
   font-weight: bold;
   text-align: center;
   font-size: 15px;
-  padding: 12px 25px;
+  padding: 2px 25px;
   border-radius: 5px;
   margin-right: 10px;
   padding-left: 40px;
   opacity: 1;
+}
+.colorPicker {
+  padding: 20px 50px 15px 50px;
 }
 
 .grid {
@@ -33,6 +41,8 @@ body {
 
 
 .startBtn, .clearBtn, .randomizeBtn, .themeBtn {
+  transform:scale(1);
+  box-shadow: -1px 1px black;
   color: black;
   background-color: #fff;
   border: solid 1px black;
@@ -42,9 +52,24 @@ body {
   font-size: 15px;
   padding: 7px;
   border-radius: 5px;
-  margin-right: 10px
+  margin-right: 10px;
+  transition: all ease 50ms;
+}
+.startBtn:hover , .clearBtn:hover , .randomizeBtn:hover , .themeBtn:hover{
+  transform: scale(0.96);
+}
+.startBtn:active , .clearBtn:active , .randomizeBtn:active , .themeBtn:active  { 
+  transform: scale(0.90);
 }
 
-.startBtn {
-  color: #fff;
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+footer a {
+  color: rgba(0, 0, 0, 0.671);
+  font-size: 20px;
+  cursor: pointer;
 }
