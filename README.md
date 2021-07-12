@@ -9,4 +9,4 @@
 
 ***WARNING***
 
-Do **NOT** press the tittle exactly 5 times!
+Do **NOT** press the title exactly 5 times!
